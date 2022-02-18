@@ -23,21 +23,21 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://dev21.hashnode.dev/react-boilerplate-generation" className={styles.card}>
+            <h2>React Boilerplate Generation &rarr;</h2>
+            <p>Boilerplate generation through the ES7 extension (dsznajder).</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
+          <a href="https://dev21.hashnode.dev/hoisting-in-javascript" className={styles.card}>
+            <h2>Hoisting in Javascript &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="https://dev21.hashnode.dev/secrets-module-in-python"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
+            <h2>'secrets' module in Python &rarr;</h2>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
