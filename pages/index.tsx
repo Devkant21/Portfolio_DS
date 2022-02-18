@@ -42,10 +42,10 @@ const Home: NextPage = () => {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://dev21.hashnode.dev/virtual-environment-walkthrough-and-flask-installation"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>Virtual Environment walkthrough and Flask installation  &rarr;</h2>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
