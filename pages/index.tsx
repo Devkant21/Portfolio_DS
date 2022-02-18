@@ -37,7 +37,7 @@ const Home: NextPage = () => {
             href="https://dev21.hashnode.dev/secrets-module-in-python"
             className={styles.card}
           >
-            <h2>'secrets' module in Python &rarr;</h2>
+            <h2>secrets module in Python &rarr;</h2>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
