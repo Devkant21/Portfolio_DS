@@ -30,7 +30,7 @@ const Home: NextPage = () => {
 
           <a href="https://dev21.hashnode.dev/hoisting-in-javascript" className={styles.card}>
             <h2>Hoisting in Javascript &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>In Javascript (JS), variables and functions can be accessed before initializing it without any error anywhere in the program. This is known as Hoisting.</p>
           </a>
 
           <a
@@ -38,7 +38,7 @@ const Home: NextPage = () => {
             className={styles.card}
           >
             <h2>secrets module in Python &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <p>The secrets module is useful for generating random numbers which might be used as a password, security tokens etc. for the application.</p>
           </a>
 
           <a
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
           >
             <h2>Virtual Environment walkthrough and Flask installation  &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+            Virtual environment enables the user to install packages and libraries and work on theprojects without impacting the global environment.
             </p>
           </a>
         </div>
