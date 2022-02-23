@@ -2,8 +2,12 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import MyNavbar from '../components/Navbar'
+import MyFooter from '../components/Footer'
+import Link  from 'next/link'
 
-const Home: NextPage = () => {
+const Home : NextPage = () => {
+// const Home = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -11,6 +15,9 @@ const Home: NextPage = () => {
         <meta name="description" content="programming blogs, frontend" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <MyNavbar />
+      
 
       <main className={styles.main}>
         <h1 className={styles.title}>
@@ -21,6 +28,20 @@ const Home: NextPage = () => {
           Web Developer and Open Source Enthusiast{' '}
           {/* <code className={styles.code}>pages/index.tsx</code> */}
         </p>
+        <h2>Tools & Libraries
+            <ul>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>ReactJS</li>
+              <li>NextJS</li>
+              <li>TailwindCSS</li>
+              <li>Bootstrap</li>
+              <li>Python</li>
+              <li>Flask</li>
+              <li>Django</li>
+              <li>GIT</li>
+              </ul>
+        </h2>
 
         <div className={styles.grid}>
           <a href="https://dev21.hashnode.dev/react-boilerplate-generation" className={styles.card}>
@@ -52,20 +73,10 @@ const Home: NextPage = () => {
           </a>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://twitter.com/devkant21"
-          // target="_blank"
-          // rel="noopener noreferrer"
-        >
-          Made by DS
-          {/* {' '} */}
-          {/* <span className={styles.logo}> */}
-            {/* <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} /> */}
-          {/* </span> */}
-        </a>
-      </footer>
+      <Link href="/blog">
+          <a>Published Articles</a>
+      </Link>
+      <MyFooter />
     </div>
   )
 }

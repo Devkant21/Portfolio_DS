@@ -1,4 +1,6 @@
-const Footer = () => {
+// import type { MyFooter } from 'next'
+
+export default function MyFooter () {
     return (
         <div>
             Made by DS<a href="https://twitter.com/devkant21"></a>
@@ -6,5 +8,3 @@ const Footer = () => {
         </div>
     );
 }
-
-export default Footer;
