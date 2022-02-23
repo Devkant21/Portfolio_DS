@@ -1,8 +1,9 @@
 import Link from "next/link";
+// import type { MyNavbar } from './Navbar'
 
 
 
-const Navbar = () => {
+export default function MyNavbar() {
     return (
         <nav>
             <div className="logo">
@@ -14,5 +15,3 @@ const Navbar = () => {
 
     );
 }
-
-export default Navbar

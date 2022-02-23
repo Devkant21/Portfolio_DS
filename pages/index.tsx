@@ -1,13 +1,13 @@
-// import type { NextPage } from 'next'
+import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import MyNavbar from '../components/Navbar'
+import MyFooter from '../components/Footer'
 import Link  from 'next/link'
 
-// const Home : NextPage = () => {
-const Home = () => {
+const Home : NextPage = () => {
+// const Home = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -16,7 +16,8 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
+      <MyNavbar />
+      
 
       <main className={styles.main}>
         <h1 className={styles.title}>
@@ -75,7 +76,7 @@ const Home = () => {
       <Link href="/blog">
           <a>Published Articles</a>
       </Link>
-      <Footer />
+      <MyFooter />
     </div>
   )
 }
