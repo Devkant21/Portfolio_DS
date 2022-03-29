@@ -6,7 +6,7 @@ import { AiFillGithub } from 'react-icons/ai'
 
 const Navbar = () => {
   return (
-    <div className='flex flex-col md:flex-row md:justify-center justify-center items-center py-2 shadow-xl'>
+    <div className='flex flex-col md:flex-row md:justify-center justify-center items-center py-2 shadow-xl bg-slate-400'>
         <div className='logo mx-5'>
             <Link href={'/'}><a>
                 <Image width={40} height={40} src="/dev.jpeg" alt="" />
