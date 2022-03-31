@@ -15,7 +15,7 @@ const Home : NextPage = () => {
 
       
           <div>
-            <section className="text-gray-600 bg-slate-500 body-font text-white">
+            <section className= "bg-slate-500 body-font text-white">
                 <div className="container px-5 py-24 mx-auto flex flex-col">
                   <div className="lg:w-4/6 mx-auto">
                     <div className="rounded-lg h-16 overflow-hidden"> 
@@ -30,7 +30,7 @@ const Home : NextPage = () => {
                             <circle cx="12" cy="7" r="4"></circle>
                           </svg> */}
 
-                        <Image width={100} height={100} alt="content" className="object-cover object-center  " src="/dev.jpeg" />
+                        <Image width={100} height={100} alt="content" className="object-cover object-center" src="/dev.jpeg" />
                         </div>
                         <div className="flex flex-col items-center text-center justify-center">
                           <h2 className="font-medium title-font mt-4 text-neutral-400 text-lg">Devkant Swargiary</h2>
@@ -41,7 +41,7 @@ const Home : NextPage = () => {
                       <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                         <p className="leading-relaxed text-lg mb-4">Dev is interested in Web Development. According to him, there should be no bar in learning things and prefers to learn things on the fly.  <br></br>
                         He writes blogs related to the issue he faces while coding.  <br></br>
-                        When he isn't coding he listens to Bob Dylan and John Mayer.</p>
+                        When he isn&apos;t coding he listens to Bob Dylan and John Mayer.</p>
                         <a className="text-indigo-500 inline-flex items-center">Learn More
                           {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
