@@ -4,13 +4,12 @@ import Link from 'next/link'
 import { AiFillGithub, AiFillTwitterCircle, AiFillYoutube } from 'react-icons/ai'
 
 
-
 const Navbar = () => {
   return (
-    <div className='flex flex-col md:flex-row md:justify-center justify-center items-center py-2 shadow-xl bg-slate-700 text-white'>
-        <div className='logo mx-5'>
+    <div className='flex flex-col md:flex-row md:justify-center justify-center items-center py-4 shadow-xl bg-slate-900 text-white'>
+        <div className="mx-7 rounded-full overflow-hidden">
             <Link href={'/'}><a>
-                <Image width={40} height={40} src="/dev.jpeg" alt="" />
+                <Image width={100} height={100} src="/dev.jpeg" alt="" />
                 </a>
             </Link>
             
