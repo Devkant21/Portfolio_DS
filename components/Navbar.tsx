@@ -1,7 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { AiFillGithub } from 'react-icons/ai'
+import { AiFillGithub, AiFillTwitterCircle, AiFillYoutube } from 'react-icons/ai'
+
 
 
 const Navbar = () => {
@@ -20,9 +21,21 @@ const Navbar = () => {
                     <Link href='https://dev21.hashnode.dev/'><a><li>Blog</li></a></Link>
                 </ul>
             </div>
-            <div className='AiFillGithub absolute right-0 top-4 mx-5 cursor-pointer'>
+            <div className='AiFillGithub absolute right-20 top-4 mx-5 cursor-pointer'>
                 <Link href="https://github.com/Devkant21/">
                 <AiFillGithub className='text-3xl' 
+                />
+                </Link>
+            </div>
+            <div className='AiFillYoutube absolute right-10 top-4 mx-5 cursor-pointer'>
+                <Link href="https://www.youtube.com/channel/UCVSo6oM9UEwmbh8BH8Fx3bQ">
+                <AiFillYoutube className='text-3xl' 
+                />
+                </Link>
+            </div>
+            <div className='AiFillTwitterCircle absolute right-0 top-4 mx-5 cursor-pointer'>
+                <Link href="https://twitter.com/devkant21/">
+                <AiFillTwitterCircle className='text-3xl' 
                 />
                 </Link>
             </div>
