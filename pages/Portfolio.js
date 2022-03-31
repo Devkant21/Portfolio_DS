@@ -17,7 +17,7 @@ const Portfolio = () => {
               <div className="flex flex-wrap -m-4">
                 <div className="xl:w-1/4 md:w-1/2 p-4">
                   <div className="bg-gray-100 p-6 rounded-lg">
-                    <Image width={100} height={40} className="h-40 rounded w-full object-cover object-center mb-6" src="/js.png" alt="content" />
+                    <Image width={100} height={100} className="h-100 rounded w-full object-cover object-center mb-6" src="/js.png" alt="content" />
                     <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">IMDB movie loader</h3>
                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">React.js, CSS</h2>
                     <Link href="https://github.com/Devkant21/IMDB"><a>Github</a></Link>
@@ -28,7 +28,7 @@ const Portfolio = () => {
                 </div>
                 <div className="xl:w-1/4 md:w-1/2 p-4">
                   <div className="bg-gray-100 p-6 rounded-lg">
-                    <Image width={100} height={40} className="h-40 rounded w-full object-cover object-center mb-6" src="/js.png" alt="content" />
+                    <Image width={100} height={100} className="h-100 rounded w-full object-cover object-center mb-6" src="/js.png" alt="content" />
                     <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Next.js Boilerplate website</h3>
                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Next.js, TailwindCSS</h2>
                     <Link href="https://github.com/Devkant21/NextJs-Boilerplate-Website"><a>Github</a></Link>
@@ -37,7 +37,7 @@ const Portfolio = () => {
                 </div>
                 <div className="xl:w-1/4 md:w-1/2 p-4">
                   <div className="bg-gray-100 p-6 rounded-lg">
-                    <Image width={100} height={40} className="h-40 rounded w-full object-cover object-center mb-6" src="/js.png" alt="content" />
+                    <Image width={100} height={100} className="h-100 rounded w-full object-cover object-center mb-6" src="/js.png" alt="content" />
                     <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Zephyr Solutions Website</h3>
                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Next.js, TailwindCSS</h2>
                     <Link href="https://github.com/Devkant21/Zephyr"><a>Github</a></Link>
@@ -46,7 +46,7 @@ const Portfolio = () => {
                 </div>
                 <div className="xl:w-1/4 md:w-1/2 p-4">
                   <div className="bg-gray-100 p-6 rounded-lg">
-                    <Image width={100} height={40} className="h-40 rounded w-full object-cover object-center mb-6" src="/js.png" alt="content" />
+                    <Image width={100} height={100} className="h-100 rounded w-full object-cover object-center mb-6" src="/js.png" alt="content" />
                     <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Image Loader</h3>
                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">HTML, CSS</h2>
                     <Link href="https://github.com/Devkant21/Image-Loader"><a>Github</a></Link>
@@ -55,7 +55,7 @@ const Portfolio = () => {
                 </div>
                 {/* <div className="xl:w-1/4 md:w-1/2 p-4">
                   <div className="bg-gray-100 p-6 rounded-lg">
-                    <Image width={100} height={40} className="h-40 rounded w-full object-cover object-center mb-6" src="/js.png" alt="content" />
+                    <Image width={100} height={100} className="h-100 rounded w-full object-cover object-center mb-6" src="/js.png" alt="content" />
                     <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
                     <p className="leading-relaxed text-base">IMDB movie </p>
@@ -63,7 +63,7 @@ const Portfolio = () => {
                 </div>
                 <div className="xl:w-1/4 md:w-1/2 p-4">
                   <div className="bg-gray-100 p-6 rounded-lg">
-                    <Image width={100} height={40} className="h-40 rounded w-full object-cover object-center mb-6" src="/js.png" alt="content" />
+                    <Image width={100} height={100} className="h-100 rounded w-full object-cover object-center mb-6" src="/js.png" alt="content" />
                     <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
                     <p className="leading-relaxed text-base">IMDB movie </p>
