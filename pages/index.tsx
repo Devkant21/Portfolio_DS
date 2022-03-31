@@ -15,7 +15,7 @@ const Home : NextPage = () => {
 
       
           <div>
-            <section className= "bg-slate-500 body-font text-white">
+            <section className= "bg-slate-900 body-font text-white">
                 <div className="container px-5 py-24 mx-auto flex flex-col">
                   <div className="lg:w-4/6 mx-auto">
                     <div className="rounded-lg h-16 overflow-hidden"> 
@@ -43,16 +43,19 @@ const Home : NextPage = () => {
                         He writes blogs related to the issue he faces while coding.  <br></br>
                         When he isn&apos;t coding he listens to Bob Dylan and John Mayer.</p>
                         <a className="text-indigo-500 inline-flex items-center">Learn More
-                          {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
-                          </svg> */}
+                          </svg>
                         </a>
                       </div>
                     </div>
                   </div>
                 </div>
-                  <div className='text-xl flex justify-center'>
-                      <p>Technology Stacks</p>
+                <div className='flex justify-center font-medium text-xl'>
+                  <h2>Technology Stacks</h2>
+                </div>
+                  <div className='text-xl flex text-center justify-center'>
+                      
                         <section className="text-gray-600 body-font">
                           <div className="container px-5 py-24 mx-auto">
                             <div className="flex flex-wrap -m-4">
