@@ -2,13 +2,14 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link  from 'next/link'
+import { motion } from 'framer-motion'
 
 const Home : NextPage = () => {
 // const Home = () => {
   return (
     <>
       <Head>
-        <title></title>
+        <title>Dev</title>
         <meta name="description" content="programming blogs, frontend" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -38,7 +39,12 @@ const Home : NextPage = () => {
                           <p className="text-base">Web Developer and Open Source Enthusiast based in India</p>
                         </div>
                       </div>
-                      <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                      <motion.div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 1.5, duration: 1.5 }}
+                      
+                      >
                         <p className="leading-relaxed text-lg mb-4">Dev is interested in Web Development. According to him, there should be no bar in learning things and prefers to learn things on the fly.  <br></br>
                         He writes blogs related to the issue he faces while coding.  <br></br>
                         When he isn&apos;t coding he listens to Bob Dylan and John Mayer.</p>
@@ -47,7 +53,7 @@ const Home : NextPage = () => {
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                           </svg>
                         </a> */}
-                      </div>
+                      </motion.div>
                     </div>
                   </div>
                 </div>

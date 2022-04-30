@@ -2,11 +2,16 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { AiFillGithub, AiFillTwitterCircle, AiFillYoutube } from 'react-icons/ai'
+import { motion } from 'framer-motion'
 
 
 const Navbar = () => {
   return (
-    <div className='flex flex-col md:flex-row md:justify-center justify-center items-center py-4 shadow-xl bg-slate-900 text-white'>
+    <motion.div className='flex flex-col md:flex-row md:justify-center justify-center items-center py-2 bg-slate-900 text-white'
+    initial={{ y: -250 }}
+    animate={{ y: -0 }}
+    transition={{ delay: 0.5 }}
+    >
         <div className="mx-7 rounded-full overflow-hidden">
             <Link href={'/'}><a>
                 <Image width={100} height={100} src="/dev.jpeg" alt="" />
@@ -38,7 +43,7 @@ const Navbar = () => {
                 />
                 </Link>
             </div>
-        </div>
+        </motion.div>
   )
 }
 
