@@ -5,7 +5,6 @@ import Link  from 'next/link'
 import { motion } from 'framer-motion'
 
 const Home : NextPage = () => {
-// const Home = () => {
   return (
     <>
       <Head>

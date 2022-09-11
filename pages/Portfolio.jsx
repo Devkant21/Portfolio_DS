@@ -18,9 +18,9 @@ const Portfolio = () => {
                 <div className="xl:w-1/4 md:w-1/2 p-4">
                   <div className="bg-gray-900 p-6 rounded-lg">
                     <Image width={100} height={100} className="h-100 rounded w-full object-cover object-center mb-6" src="/js.png" alt="content" />
-                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">IMDB movie loader</h3>
-                    <h2 className="text-lg text-gray-200 font-medium title-font mb-4">React.js, CSS</h2>
-                    <Link href="https://github.com/Devkant21/IMDB"><a>Github</a></Link>
+                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Docker-Next Boilerplate</h3>
+                    <h2 className="text-lg text-gray-200 font-medium title-font mb-4">Next, Docker</h2>
+                    <Link href="https://github.com/Devkant21/Docker-Next"><a>Github</a></Link>
                     {/* <Link href="https://github.com/Devkant21/IMDB"><a><li>Blog</li></a></Link> */}
                     
               
