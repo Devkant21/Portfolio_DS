@@ -46,10 +46,10 @@ const Portfolio = () => {
                 </div>
                 <div className="xl:w-1/4 md:w-1/2 p-4">
                   <div className="bg-gray-900 p-6 rounded-lg">
-                    <Image width={100} height={100} className="h-100 rounded w-full object-cover object-center mb-6" src="/js.png" alt="content" />
-                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Image Loader</h3>
-                    <h2 className="text-lg text-gray-200 font-medium title-font mb-4">HTML, CSS</h2>
-                    <Link href="https://github.com/Devkant21/Image-Loader"><a>Github</a></Link>
+                    <Image width={100} height={100} className="h-100 rounded w-full object-cover object-center mb-6" src="/Compendium.png" alt="content" />
+                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Compendium</h3>
+                    <h2 className="text-lg text-gray-200 font-medium title-font mb-4">Next.js, TailwindCSS</h2>
+                    <Link href="https://github.com/Devkant21/compendium"><a>Github</a></Link>
                     
                   </div>
                 </div>
