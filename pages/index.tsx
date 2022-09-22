@@ -15,7 +15,7 @@ const Home : NextPage = () => {
 
       
           <div>
-            <section className= "bg-slate-700 body-font text-white">
+            <section className= "bg-slate-900 body-font text-white">
                 <div className="container px-5 py-24 mx-auto flex flex-col">
                   <div className="lg:w-4/6 mx-auto">
                     <div className="rounded-lg h-16 overflow-hidden"> 
