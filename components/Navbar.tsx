@@ -10,7 +10,7 @@ const Navbar = () => {
     <motion.div className='flex flex-col md:flex-row md:justify-center justify-center items-center py-2 bg-slate-900 text-white'
     initial={{ y: -250 }}
     animate={{ y: -0 }}
-    transition={{ delay: 0.5 }}
+    transition={{ delay: 0.7 }}
     >
         <div className="mx-7 rounded-full overflow-hidden">
             <Link href={'/'}><a>
@@ -22,6 +22,7 @@ const Navbar = () => {
             <div className='nav'>
                 <ul className='flex items-center space-x-4 font-bold md:text-md'> 
                     <Link href={'Portfolio'}><a><li>Portfolio</li></a></Link>
+                    <Link href={'Code_Nuggets'}><a><li>Code Nuggets</li></a></Link>
                     <Link href='https://dev21.hashnode.dev/'><a><li>Blog</li></a></Link>
                 </ul>
             </div>
@@ -43,6 +44,7 @@ const Navbar = () => {
                 />
                 </Link>
             </div>
+            
         </motion.div>
   )
 }
