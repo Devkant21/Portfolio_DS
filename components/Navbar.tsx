@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 
 const Navbar = () => {
   return (
-    <motion.div className='flex flex-col md:flex-row md:justify-center justify-center items-center py-2 bg-slate-900 text-white'
+    <motion.div className='flex flex-col md:flex-row md:justify-center justify-center items-center py-2 bg-slate-700 text-white'
     initial={{ y: -250 }}
     animate={{ y: -0 }}
     transition={{ delay: 0.7 }}
